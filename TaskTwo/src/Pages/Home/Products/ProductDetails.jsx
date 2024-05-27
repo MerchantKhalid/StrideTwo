@@ -11,9 +11,9 @@ const ProductDetails = () => {
           <img src={img} alt="car!" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">{title}</h2>
-          <h2>Price:${price} </h2>
-          <p>{description}</p>
+          <h2 className="card-title font-bold">{title}</h2>
+          <h2 className="font-bold">Price:${price} </h2>
+          <p className="font-semibold">{description}</p>
           <div className="card-actions">
             <button className="btn btn-warning">Buy Now</button>
           </div>

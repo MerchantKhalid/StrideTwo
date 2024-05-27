@@ -31,7 +31,7 @@ const Navbar = () => {
             </li>
 
             <li>
-              <a>About</a>
+              <Link to={`/addproduct`}>Add Product</Link>
             </li>
           </ul>
         </div>
@@ -44,7 +44,7 @@ const Navbar = () => {
           </li>
 
           <li>
-            <a>About</a>
+            <Link to={`/addproduct`}>Add Product</Link>
           </li>
         </ul>
       </div>
