@@ -6,7 +6,7 @@ const Hero = () => {
       className="hero min-h-screen"
       style={{
         backgroundImage:
-          'url(https://tse1.mm.bing.net/th?id=OIP.ZntegL1DbDDFwZb8CzbbIQHaFP&pid=Api&P=0&h=180)',
+          'url(https://tse1.mm.bing.net/th?id=OIP.hfhqIygtwsm0NsP_3ZlxTQHaEo&pid=Api&P=0&h=180)',
       }}
     >
       <div className="hero-overlay bg-opacity-60"></div>
@@ -16,7 +16,6 @@ const Hero = () => {
           <p className="mb-5">
             Its a practise project for Stride Two by Programming Hero
           </p>
-          <button className="btn btn-primary">Get Started</button>
         </div>
       </div>
     </div>

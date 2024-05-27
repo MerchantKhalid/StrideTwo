@@ -4,6 +4,7 @@ import { useLoaderData } from 'react-router-dom';
 const ProductDetails = () => {
   const product = useLoaderData();
   const { _id, title, img, price, description } = product;
+
   return (
     <div className="p-5">
       <div className="card p-5 glass">
